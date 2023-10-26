@@ -129,6 +129,11 @@ li:hover:before {
 
 @media screen and (max-width: 768px) {
 
+  .slide-container{
+  max-width: 100vw;
+  padding: 95px 0px 100px 0px;
+}
+  
   .slide-content{
     margin: 0 10px;
   }
@@ -253,7 +258,8 @@ body > div.page > div.cabecario > h1{
 /* PARTE DE SLIDES */
 
 .slide-container{
-  max-width: 100vw;
+  max-width: 1200px;
+  width: 100%;
   padding: 95px 0px 100px 0px;
 }
 .slide-content{
